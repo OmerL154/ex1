@@ -12,12 +12,17 @@ int main()
 
     // Ascii
     printf("Ascii:\n");
+    int user_num;
+    scanf("%d", &user_num);
     /*. Scan one character from the user.
         Then, refer to it as an integer.
         a. Print its value.
+    printf("%d\n", user_num);
         b:
         Print “0”, if its integer representation is even.
         print “1” if its integer representation is odd. */
+    printf("%d", user_num&1);
+    
 
     // 2's complement and other representations
     printf("\n2's Complement to Other Representations:\n");
