@@ -1,7 +1,7 @@
 /******************
-Name:
-ID:
-Assignment:
+Name: Omer Levi
+ID: 217552116
+Assignment: Exercise 1/homework1
 *******************/
 #include <stdio.h>
 
@@ -12,15 +12,12 @@ int main()
 
     // Ascii
     printf("Ascii:\n");
-    int user_num;
+    
+    int user_num; 
+    
     scanf("%d", &user_num);
-    /*. Scan one character from the user.
-        Then, refer to it as an integer.
-        a. Print its value.
+    
     printf("%d\n", user_num);
-        b:
-        Print “0”, if its integer representation is even.
-        print “1” if its integer representation is odd. */
     printf("%d", user_num&1);
     
 
