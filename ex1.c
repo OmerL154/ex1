@@ -14,11 +14,11 @@ int main()
     printf("Ascii:\n");
     
     int user_num; 
-    
+    printf("Please enter a character\n");
     scanf("%d", &user_num);
     
-    printf("%d\n", user_num);
-    printf("%d", user_num&1);
+    printf("Its numerical value is: %d\n", user_num);
+    printf("0 for even, 1 for odd: %d\n", user_num&1);
     
 
     // 2's complement and other representations
